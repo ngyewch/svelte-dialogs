@@ -175,7 +175,6 @@
 "}\n" +
 ".dialog__form-element fieldset legend {\n" +
 "  display: block;\n" +
-"  width: -webkit-fit-content;\n" +
 "  width: -moz-fit-content;\n" +
 "  width: fit-content;\n" +
 "  text-align: left;\n" +
@@ -186,7 +185,6 @@
 "\n" +
 ".dialog__input-label {\n" +
 "  display: block;\n" +
-"  width: -webkit-fit-content;\n" +
 "  width: -moz-fit-content;\n" +
 "  width: fit-content;\n" +
 "  margin-left: 1rem;\n" +
@@ -248,9 +246,6 @@
 "}\n" +
 ".dialog__input[type=range] {\n" +
 "  padding: 1rem 0;\n" +
-"}\n" +
-".dialog__input[type=file]::-webkit-file-upload-button {\n" +
-"  display: none;\n" +
 "}\n" +
 ".dialog__input[type=file]::file-selector-button {\n" +
 "  display: none;\n" +
